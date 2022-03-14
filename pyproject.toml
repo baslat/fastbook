@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fastbook"
+version = "0.1.0"
+description = "Deep learning course (run on WSL)"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastai = ">=2.0.0"
+graphviz = "^0.19.1"
+ipywidgets = "^7.6.5"
+matplotlib = "^3.5.1"
+nbdev = ">=0.2.12"
+pandas = "^1.4.0"
+scikit-learn = "^1.0.2"
+azure-cognitiveservices-search-imagesearch = "^2.0.0"
+sentencepiece = "^0.1.96"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
